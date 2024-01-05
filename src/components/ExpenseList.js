@@ -3,6 +3,7 @@ import ExpenseItem from './ExpenseItem';
 import { AppContext } from '../context/AppContext';
 const ExpenseList = () => {
     const { expenses } = useContext(AppContext);
+
     return (
         <table className='table'>
               <thead className="thead-light">
